@@ -1,0 +1,444 @@
+
+/** s.t all **/
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+body {
+    perspective: 10000px;
+    color: #000000;
+    font-family: "Poppins Medium",sans-serif;
+}
+a:hover {
+    text-decoration: none;
+}
+.padding-none {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h6 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+}
+h2 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-weight: bold;
+    font-size: 50px;
+}
+.padding-none {
+    padding: 0px 0px;
+}
+
+.main {
+    color: #ff3939;
+}
+
+/** e.d all **/
+
+/** s.t headeer - nav **/
+.headeer {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.headeer .logo {
+    margin: 30px auto;
+    width: 133px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.headeer .logo a {
+    color: #ffffff;
+}
+.headeer .logo span {
+    color: #ff3939;
+}
+.headeer nav {
+    margin: 0px auto;
+    width: 600px;
+}
+.headeer nav ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.headeer nav ul li {
+    list-style: none;
+}
+.headeer nav ul li a {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0px 30px;
+    font-family: "Jost";
+}
+.menu {
+    float: right;
+    margin-right: 20px;
+    font-size: 24px;
+    line-height: 70px;
+    display: none;
+}
+.back {
+    float: right;
+    margin-right: 20px;
+    font-size: 24px;
+    line-height: 70px;
+    color: #FBF8F6;
+}
+/** e.d headeer - nav **/
+
+/** s.t hero **/
+.hero {
+    background-image: url(../img/headeer/hero.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    height: auto;
+    padding: 200px 0px 0px;
+}
+.hero .hero-text {
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero .hero-text h4 {
+    font-size: 30px;
+    color: #ff3939;
+    font-family: 'Staatliches', cursive;
+}
+.hero .hero-text h4 span {
+    color: #8c8c8c;
+}
+.hero .hero-text h1 {
+    font-size: 11rem;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 15px;
+}
+.hero .hero-item {
+    background-image: url(../img/headeer/bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: -65px;
+    background-size:contain;
+    background-position: top center;
+}
+/** e.d hero **/
+
+/** s.t about **/
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about .about-text {
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+.about .about-text span {
+    background-color: #171717;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+.about .about-text h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.about .about-text p {
+    color: #8c8c8c;
+}
+.about .about-item img {
+    border-radius: 20px;
+}
+/** e.d about **/
+
+/** s.t offers **/
+.offers {
+    margin-bottom: 100px;
+}
+.offers .offer-today {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.offers .offer-today span {
+    background-color: #ff3939;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+}
+.offers .offer-today img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.offers .offer-today h4 {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.offers .offer-today a {
+    border: 1px solid #8c8c8c;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #171717;
+    margin-right: 20px;
+}
+.offers .offer-today p {
+    margin-top: 25px;
+    color: #000000;
+}
+.offers .offer-today h5 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.offers .card {
+    width: 100%;
+    background-color: #FBF8F6;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.offers .card img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.offers .card .card-title {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.offers .card .card-text {
+    background-color: #ff3939;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.offers .card .card-link {
+    display: block;
+    margin-top: 30px;
+    color: #171717;
+    font-weight: 700;
+}
+/** e.d offers **/
+
+/** s.t menu **/
+.offmenu {
+    background-color: #222831;
+    height: auto;
+    background-size: cover;
+    padding: 150px 0px 50px;
+}
+.offmenu .offmenu-text {
+    margin: 50px 0px;
+}
+.offmenu .offmenu-text span {
+    background-color: #ff3939;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+}
+.offmenu .offmenu-text h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.offmenu .offmenu-text h5 {
+    color: #8c8c8c;
+    margin-bottom: 50px;
+}
+.offmenu .offmenu-text a {
+    padding: 15px 50px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #ff3939;
+    font-weight: bold;
+    transition: 0.4s linear;
+}
+.offmenu .offmenu-text a:hover {
+    background-color: #ff3939;
+    color: #ffffff;
+    border: 0px solid;
+
+}
+.offmenu .offmenu-item img {
+    border-radius: 100px;
+}
+/** e.d menu **/
+
+/** s.t burger **/
+.burger ,
+.dessert {
+    margin-top: 100px;
+}
+.burger .burger-text ,
+.dessert .dessert-text {
+    margin-bottom: 50px;
+}
+.burger .card ,
+.dessert .card {
+    background-color: #FBF8F6;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.burger .card img ,
+.dessert .card img {
+    padding: 30px 0px 0px;
+}
+.burger .card .card-body h3 ,
+.dessert .card .card-body h3 {
+    font-weight: bold;
+}
+.burger .card .card-body p ,
+.dessert .card .card-body p {
+    margin-bottom: 25px;
+}
+.burger .card .card-body span ,
+.dessert .card .card-body span {
+    color: #ffffff;
+    background-color: #ff3939;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.burger .card .card-body .card-link ,
+.dessert .card .card-body .card-link {
+    color: #171717;
+    font-weight: bold;
+}
+/** e.d burger **/
+
+/** s.t test **/
+.test {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.test .test-text {
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+.test .test-text span {
+    background-color: #171717;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+.test .test-text h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.test .test-text p {
+    color: #8c8c8c;
+}
+.test .test-text h5 {
+    color: #ff3939;
+    margin-bottom: 25px;
+}
+.test .test-text h6 {
+    cursor: pointer;
+}
+.test .test-item img {
+    border-radius: 20px;
+}
+/** e.d test **/
+
+/** s.t insta **/
+.insta {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.insta .hero-item img {
+    width: 100%;
+}
+/** e.d insta **/
+
+/** s.t footer **/
+footer {
+    margin-top: 50px;
+    height: auto;
+    padding-bottom: 15px;
+}
+footer .footer-title {
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+footer .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+footer .logo a {
+    color: #171717;
+}
+footer .logo span {
+    color: #ff3939;
+}
+footer h6 {
+    color: #8c8c8c;
+    margin-bottom: 25px;
+}
+footer i {
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer .icon {
+    color: #ff3939;
+    margin: 0px 0px 15px;
+}
+footer .icon span {
+    color: #8c8c8c;
+    font-size: 17px;
+    margin-left: 7px;
+}
+footer input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    margin-bottom: 25px;
+}
+footer form a {
+    background-color: #ff3939;
+    width: 100%;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+}
+footer form a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+footer .footer-end {
+    text-align: center;
+}
+footer .footer-end h6 {
+    color: #171717;
+}
+footer .footer-end span {
+    color: #ff3939;
+}
+/** e.d footer **/
